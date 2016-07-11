@@ -9,4 +9,4 @@ The quicksort algorithm is developed by Tony Hoare while working in Moscow State
 
 Quicksort gained widespread adoption, appering, for example it became default function library in Unix and C. The basic idea behind Quicksort algorithm is to partition a sequence to be sorted around pivot value, which could be selected in different ways, which all the elements less than pivot value are placed in the left side of the array, all the elements greater than pivot are placed in the right side of the array and all values equal to pivot are placed in the middle of the array.   
 
-![Quicksort](https://github.com/mediroozmeh/Quicksort/blob/master/Untitled.jpg)
+![Quicksort](https://github.com/mediroozmeh/Quicksort/blob/master/Untitled.jpg =100 * 20 )
