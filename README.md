@@ -13,3 +13,4 @@ Quicksort gained widespread adoption, appering, for example it became default fu
 
 
 ### GPU Quicksort algorithm:
+The nub of the Quicksort algorithm is partitioning a sequence of data to smalle enogh sequence which can be sorted by single work group, in fact Quicksort algorithm has two main phase, in first phase      
