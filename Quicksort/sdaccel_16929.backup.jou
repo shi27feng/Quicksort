@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# sdaccel v2015.3 (64-bit)
+# SW Build 1401868 on Wed Nov  4 16:34:39 MST 2015
+# 
+# Start of session at: Tue Jul  5 15:05:26 2016
+# Process ID: 16929
+# Current directory: /home/roozmeh/Desktop/Quicksort
+# Command line: sdaccel QuicksortKernels.cl -mode batch -notrace
+# Log file: /home/roozmeh/Desktop/Quicksort/sdaccel.log
+# Journal file: /home/roozmeh/Desktop/Quicksort/sdaccel.jou
+#-----------------------------------------------------------
