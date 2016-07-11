@@ -13,7 +13,7 @@ Quicksort gained widespread adoption, appearing, for example it became default f
 
 
 ### Quicksort algorithm on GPU:
-The nub of the Quicksort algorithm is partitioning a sequence of data to small enough one which can be sorted by single work group, in fact Quicksort algorithm on GPU has two main phases, in the first phase one kernel divide the complete sequence into small enough one which can be sorted by one workgroup, for this purpose the GPU Quicksort function iteratively lunches  **gqsort_kernel** and in the second phase **lqsort_kernel** will complete the sorting job. 
+The nub of the Quicksort algorithm is partitioning a sequence of data to small enough one which can be sorted by single work group, in fact Quicksort algorithm on GPU has two main phases, in the first phase one kernel divide the complete sequence into small enough one which can be sorted by one workgroup, for this purpose the GPU Quicksort function iteratively lunches  **gqsort_kernel** and after this point **lqsort_kernel** will complete the sorting job. 
 
 
 
