@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="solution_fpga" dir="/home/roozmeh/Desktop/Quicksort">
+  <property name="platform" value="1ddr"/>
+  <property name="dsas" value="xilinx:adm-pcie-7v3:1ddr:2.0;"/>
+  <host>
+    <src name="/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp"/>
+  </host>
+  <kernels>
+    <kernel name="lqsort_kernel" type="clc">
+      <src name="/home/roozmeh/Desktop/Quicksort/QuicksortKernels.cl"/>
+    </kernel>
+    <kernel name="gqsort_kernel" type="clc">
+      <src name="/home/roozmeh/Desktop/Quicksort/QuicksortKernels.cl"/>
+    </kernel>
+  </kernels>
+  <opencl_binaries>
+    <opencl_binary name="Quicksort" device="fpga0">
+      <compute_unit name="K1" kernel="lqsort_kernel"/>
+      <compute_unit name="K2" kernel="gqsort_kernel"/>
+      <property name="region" value="OCL_REGION_0"/>
+    </opencl_binary>
+  </opencl_binaries>
+</project>

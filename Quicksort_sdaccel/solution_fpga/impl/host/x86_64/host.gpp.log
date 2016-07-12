@@ -1,0 +1,53 @@
+In file included from /home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:17:0:
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h: In function ‘void InitializeOpenCL(char*, char*, _cl_device_id**, _cl_context**, _cl_command_queue**)’:
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:151:2: error: ‘cl_queue_properties’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:151:22: error: expected ‘;’ before ‘qprop’
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:2: error: ‘qprop’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:8: error: expected primary-expression before ‘]’ token
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:13: error: ‘CL_QUEUE_SIZE’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:130: error: ‘CL_QUEUE_ON_DEVICE’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:151: error: ‘CL_QUEUE_ON_DEVICE_DEFAULT’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:153:181: warning: extended initializer lists only available with -std=c++0x or -std=gnu++0x [enabled by default]
+/home/roozmeh/Desktop/Quicksort/OpenCLUtils.h:155:113: error: ‘clCreateCommandQueueWithProperties’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp: In function ‘void GPUQSort(OCLResources*, size_t, T*, T*)’:
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:287:61: error: there are no arguments to ‘max’ that depend on a template parameter, so a declaration of ‘max’ must be available [-fpermissive]
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:287:61: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:306:12: error: ‘it’ does not name a type
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:306:31: error: expected ‘;’ before ‘it’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:306:31: error: ‘it’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:307:52: error: there are no arguments to ‘max’ that depend on a template parameter, so a declaration of ‘max’ must be available [-fpermissive]
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:309:12: error: ‘it’ does not name a type
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:309:31: error: expected ‘;’ before ‘it’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:309:31: error: ‘it’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:333:12: error: ‘it’ does not name a type
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:333:31: error: expected ‘;’ before ‘it’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:333:31: error: ‘it’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:345:11: error: ‘it’ does not name a type
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:345:30: error: expected ‘;’ before ‘it’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:345:30: error: ‘it’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp: In function ‘int main(int, char**)’:
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:371:2: error: ‘LARGE_INTEGER’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:371:16: error: expected ‘;’ before ‘beginClock’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:372:30: error: ‘clockFreq’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:372:39: error: ‘QueryPerformanceFrequency’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:380:83: error: ‘_aligned_malloc’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:383:82: warning: lambda expressions only available with -std=c++0x or -std=gnu++0x [enabled by default]
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:383:83: error: no matching function for call to ‘generate(uint*&, uint*, main(int, char**)::<lambda()>)’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:383:83: note: candidate is:
+/tools/xilinx/SDAccel/2015.3/Vivado_HLS/lnx64/tools/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algo.h:5003:5: note: template<class _FIter, class _Generator> void std::generate(_FIter, _FIter, _Generator)
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:389:28: error: ‘beginClock’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:389:38: error: ‘QueryPerformanceCounter’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:391:28: error: ‘endClock’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:479:34: error: ‘min’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:479:34: note: suggested alternative:
+/tools/xilinx/SDAccel/2015.3/Vivado_HLS/lnx64/tools/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algobase.h:233:5: note:   ‘std::min’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:480:34: error: ‘max’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:480:34: note: suggested alternative:
+/tools/xilinx/SDAccel/2015.3/Vivado_HLS/lnx64/tools/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algobase.h:254:5: note:   ‘std::max’
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:495:12: error: ‘Sleep’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:497:22: error: ‘_aligned_free’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp: In function ‘void GPUQSort(OCLResources*, size_t, T*, T*) [with T = unsigned int, size_t = long unsigned int]’:
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:453:49:   instantiated from here
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:287:61: error: ‘max’ was not declared in this scope
+/home/roozmeh/Desktop/Quicksort/host_quicksort.cpp:287:61: note: suggested alternative:
+/tools/xilinx/SDAccel/2015.3/Vivado_HLS/lnx64/tools/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algobase.h:254:5: note:   ‘std::max’
